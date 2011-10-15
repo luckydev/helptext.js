@@ -1,5 +1,4 @@
 body {font-family:'lucida grande';}
-input[type="text"], input[type="password"] { color: red }
 textarea { width: 300px; height: 200px; }
 
 .step {
