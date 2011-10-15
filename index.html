@@ -23,7 +23,7 @@
 
 				<div class="what section span-20 append-bottom">
 			   	<h3> What </h3>
-					A jQuery plugin to add help text inside form text elements.
+					A small library to add help text inside form text elements. Simply add your custom help text in 'data-helptext' attribute of form elements and they will appear inside them automatically.
 				</div>
 				
 		 		
@@ -74,7 +74,13 @@ $(document).ready(function(){
 						</pre>
 					</div>
 				</div>
-
+				
+				<div class="rails section span-20 append-bottom">
+					<h3> Usage in Rails forms </h3>
+					<pre class="rails code">
+<%= f.text_field :name, :"data-helptext" => "Give your name" %>
+					</pre>
+			  </div>
 
 
 				<div class="note section span-20 append-bottom">
