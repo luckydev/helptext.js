@@ -24,3 +24,7 @@ input {
 a, h1, h3{
     color:#3B5998;
 }
+
+.container {
+    padding:30px;
+}
