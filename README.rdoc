@@ -1,4 +1,4 @@
-=== helptext.js
+== helptext.js
 
 helptext.js is a small jQuery plugin to label the form input elements inside their container itself. Look at the demo for example. It can eliminate using labels in the forms.
 
@@ -22,10 +22,10 @@ Then call helptext() like:
 
 Use any selector for choosing the form elements. The above code is just an example.
 
-== Usage in Rails form helpers
+=== Usage in Rails form helpers
 
   <%= f.text_field :name, :"data-helptext" => "Give your name" %>
 
-== Author
+=== Author
 
 Anand (lucky.developer@gmail.com)
