@@ -1,0 +1,36 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="helptext.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("input[type=text], input[type=password], textarea").helptext();
+      });
+    </script>
+    <style>
+      input[type="text"], input[type="password"] { color: red }
+      textarea { width: 300px; height: 200px; }
+    </style>
+  </head>
+
+  <body>
+    <form action="#" method="#">
+      <p>
+        <input type="text" name="login" data-helptext="Your login name" />
+      </p>
+
+      <p>
+        <input type="password" name="password" data-helptext="Your password" />
+      </p>
+      <p>
+        <textarea type="password" name="body" data-helptext="Enter your message here"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" name="password" />
+      </p>
+    </form>
+  </body>
+</html>
