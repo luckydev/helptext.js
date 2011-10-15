@@ -20,3 +20,7 @@ input {
 .code.rails{
     border-left: 3px solid #8A0829;
 }
+
+a, h1, h3{
+    color:#3B5998;
+}
