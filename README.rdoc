@@ -1,6 +1,6 @@
 == helptext.js
 
-helptext.js is a small jQuery plugin to label the form input elements inside their container itself. Look at the demo for example. It can eliminate using labels in the forms.
+helptext.js is a small jQuery plugin to label the form input elements inside their container itself. Look at http://luckydev.github.com/helptext.js for example. It can eliminate using labels in the forms.
 
 
 === How to use
