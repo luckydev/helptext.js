@@ -1,0 +1,100 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/screen.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/custom.css" media="screen" />
+		<script type="text/javascript" src="scripts/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="scripts/helptext.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("input[type=text], input[type=password]").helptext();
+      });
+    </script>
+  </head>
+
+  <body>
+		<div class="container">
+			<div class="span-20">
+				
+				<div class="heading span-20 append-bottom">
+					<h1>helptext.js</h1>
+				</div>
+
+				<div class="what section span-20 append-bottom">
+			   	<h3> What </h3>
+					A jQuery plugin to add help text inside form text elements.
+				</div>
+				
+		 		
+				<div class="preview section span-20 append-bottom">
+			   	<h3> Preview </h3>
+					Here is how helptext works inside a form element: &nbsp;
+					<form action="#" method="#">
+			      <p>
+			        <input type="text" name="login" data-helptext="Your login name"/>
+			        <input type="password" name="password" data-helptext="Your password" />
+			      </p>
+			    </form>
+				</div>
+
+				<div class="download section span-20 append-bottom">
+			   	<h3> Download </h3>
+					Download the plugin from <a href="http://github.com/luckydev/helptext.js">here</a>.
+				</div>
+
+
+		 		<div class="requires section span-20 append-bottom">
+			   	<h3> Depends on </h3>
+					helptext.js uses jQuery. It has been tested in jQuery 1.5.1 and I'm sure it will work in almost all versions.
+				</div>
+
+				<div class="how-to span-20 append-bottom">
+			   	<h3> How to use it </h3>
+
+					<div class="step">
+						1. Include jQuery and helptext.js 
+						<pre class="code">
+&lt;script type="text/javascript" src="jquery-1.5.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="helptext.js"&gt;&lt;/script&gt;
+						</pre>
+					</div>
+					<div class="step">
+						2. Add data-helptext to elements that require help text 
+						<pre class="code">
+&lt;input type="text" name="login" data-helptext="Your login name" /&gt;
+						</pre>
+					</div>
+					<div class="step">
+						3. Call helptext() on those elements as soon as the document is ready. 
+						<pre class="code">
+$(document).ready(function(){
+  $("input[type=text], input[type=password], textarea").helptext();
+});
+						</pre>
+					</div>
+				</div>
+
+
+
+				<div class="note section span-20 append-bottom">
+					<h3> Note </h3>
+			   	
+					On form submits, we ideally want the value of a text element to be empty if its truly empty. So, on form submits, if the user has not entered anything, the value of them will also be sent as empty ones. Check out the source code of helptext.js. Its merely 30 lines of code. 
+				</div>
+		
+				<div class="source section span-20 append-bottom">
+					<h3> Source code </h3>
+			   	
+					helptext.js source code can be obtained from <a href="http://github.com/luckydev/helptext.js">here</a>.
+				</div>
+		
+				<div class="author section span-20 append-bottom">
+					<h3> Author </h3>
+			   	
+					Anand (<a href="mailto:lucky.developer@gmail.com">lucky.developer@gmail.com</a>)
+				</div>
+			</div>
+		</div>
+  </body>
+</html>
