@@ -1,3 +1,5 @@
+:) this was my first jQuery plugin. I was pretty excited to see this coming out. Note that you can acheive the same help text thing in HTML 5 using placeholder attribute.  
+
 == helptext.js
 
 helptext.js is a small jQuery plugin to label the form input elements inside their container itself. Look at http://luckydev.github.com/helptext.js for example. It can eliminate using labels in the forms.
